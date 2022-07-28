@@ -4,5 +4,5 @@
 
 ```shell
 docker build -t amsuarezg_back .
-docker run -d --name mycontainer -p 80:80 portfolio_api
+docker run -d -p 80:80 amsuarezg_back
 ```
